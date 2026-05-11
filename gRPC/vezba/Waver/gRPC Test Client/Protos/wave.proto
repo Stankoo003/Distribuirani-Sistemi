@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message WaverData {
+  int32 number = 1;
+}
+
+service Waver {
+  rpc UnaryCall(WaverData) returns (WaverData);
+  rpc ClientStreaming(stream WaverData) returns (WaverData);
+  rpc ServerStreaming(WaverData) returns (stream WaverData);
+  rpc BidirectionalStreaming(stream WaverData) returns (stream WaverData);
+}
