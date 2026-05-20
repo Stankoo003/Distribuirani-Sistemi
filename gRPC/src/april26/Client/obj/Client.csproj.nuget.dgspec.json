@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/stankoo/Documents/DEV FAKS/Distribuirani-Sistemi/gRPC/src/april26/Client/Client.csproj": {}
+    "/Users/aleksastankovic/Documents/DEV FAKS/Distribuirani-Sistemi/gRPC/src/april26/Client/Client.csproj": {}
   },
   "projects": {
-    "/Users/stankoo/Documents/DEV FAKS/Distribuirani-Sistemi/gRPC/src/april26/Client/Client.csproj": {
+    "/Users/aleksastankovic/Documents/DEV FAKS/Distribuirani-Sistemi/gRPC/src/april26/Client/Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/stankoo/Documents/DEV FAKS/Distribuirani-Sistemi/gRPC/src/april26/Client/Client.csproj",
+        "projectUniqueName": "/Users/aleksastankovic/Documents/DEV FAKS/Distribuirani-Sistemi/gRPC/src/april26/Client/Client.csproj",
         "projectName": "Client",
-        "projectPath": "/Users/stankoo/Documents/DEV FAKS/Distribuirani-Sistemi/gRPC/src/april26/Client/Client.csproj",
-        "packagesPath": "/Users/stankoo/.nuget/packages/",
-        "outputPath": "/Users/stankoo/Documents/DEV FAKS/Distribuirani-Sistemi/gRPC/src/april26/Client/obj/",
+        "projectPath": "/Users/aleksastankovic/Documents/DEV FAKS/Distribuirani-Sistemi/gRPC/src/april26/Client/Client.csproj",
+        "packagesPath": "/Users/aleksastankovic/.nuget/packages/",
+        "outputPath": "/Users/aleksastankovic/Documents/DEV FAKS/Distribuirani-Sistemi/gRPC/src/april26/Client/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/stankoo/.nuget/NuGet/NuGet.Config"
+          "/Users/aleksastankovic/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -75,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

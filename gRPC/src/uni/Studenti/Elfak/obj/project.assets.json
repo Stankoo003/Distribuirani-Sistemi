@@ -791,19 +791,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/stankoo/.nuget/packages/": {}
+    "/Users/aleksastankovic/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/stankoo/Documents/DEV FAKS/Distribuirani-Sistemi/gRPC/src/uni/Studenti/Elfak/Elfak.csproj",
+      "projectUniqueName": "/Users/aleksastankovic/Documents/DEV FAKS/Distribuirani-Sistemi/gRPC/src/uni/Studenti/Elfak/Elfak.csproj",
       "projectName": "Elfak",
-      "projectPath": "/Users/stankoo/Documents/DEV FAKS/Distribuirani-Sistemi/gRPC/src/uni/Studenti/Elfak/Elfak.csproj",
-      "packagesPath": "/Users/stankoo/.nuget/packages/",
-      "outputPath": "/Users/stankoo/Documents/DEV FAKS/Distribuirani-Sistemi/gRPC/src/uni/Studenti/Elfak/obj/",
+      "projectPath": "/Users/aleksastankovic/Documents/DEV FAKS/Distribuirani-Sistemi/gRPC/src/uni/Studenti/Elfak/Elfak.csproj",
+      "packagesPath": "/Users/aleksastankovic/.nuget/packages/",
+      "outputPath": "/Users/aleksastankovic/Documents/DEV FAKS/Distribuirani-Sistemi/gRPC/src/uni/Studenti/Elfak/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/stankoo/.nuget/NuGet/NuGet.Config"
+        "/Users/aleksastankovic/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -858,15 +858,15 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.22, 8.0.22]"
+            "version": "[8.0.23, 8.0.23]"
           },
           {
             "name": "Microsoft.NETCore.App.Host.osx-arm64",
-            "version": "[8.0.22, 8.0.22]"
+            "version": "[8.0.23, 8.0.23]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.22, 8.0.22]"
+            "version": "[8.0.23, 8.0.23]"
           }
         ],
         "frameworkReferences": {
@@ -877,7 +877,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
