@@ -1,0 +1,2 @@
+obj/Debug/net10.0/Protos/Ds26.cs \
+obj/Debug/net10.0/Protos/Ds26Grpc.cs: Protos/ds26.proto

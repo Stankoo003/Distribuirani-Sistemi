@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "grpc2026";
+
+package ds26;
+
+service DS26 {
+  rpc Unary (Number) returns (Number);
+  rpc ClientStreaming (stream Number) returns (Number);
+  rpc ServerStreaming (Number) returns (stream Number);
+  rpc BidirectionalStreaming (stream Number) returns (stream Number);
+}
+
+message Number {
+  int32 value = 1;
+}
+

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../grpc2026client/grpc2026client.csproj" Id="c22b305f-9a31-4911-80a2-98bfc6b9adc1" />
+  <Project Path="grpc2026.csproj" />
+</Solution>

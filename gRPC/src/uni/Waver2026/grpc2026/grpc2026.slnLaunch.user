@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "grpc2026.csproj",
+        "Action": "Start",
+        "DebugTarget": "http"
+      },
+      {
+        "Path": "..\\grpc2026client\\grpc2026client.csproj",
+        "Action": "Start",
+        "DebugTarget": "grpc2026client"
+      }
+    ]
+  }
+]

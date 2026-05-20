@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vukad\\source\\repos\\grpc2026\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C22B305F-9A31-4911-80A2-98BFC6B9ADC1}|..\\grpc2026client\\grpc2026client.csproj|c:\\users\\vukad\\source\\repos\\grpc2026client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E62A57-BB65-3298-5681-650ADDBA8D0C}|grpc2026.csproj|c:\\users\\vukad\\source\\repos\\grpc2026\\services\\ds26service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86E62A57-BB65-3298-5681-650ADDBA8D0C}|grpc2026.csproj|solutionrelative:services\\ds26service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E62A57-BB65-3298-5681-650ADDBA8D0C}|grpc2026.csproj|c:\\users\\vukad\\source\\repos\\grpc2026\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86E62A57-BB65-3298-5681-650ADDBA8D0C}|grpc2026.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C22B305F-9A31-4911-80A2-98BFC6B9ADC1}|..\\grpc2026client\\grpc2026client.csproj|c:\\users\\vukad\\source\\repos\\grpc2026client\\protos\\ds26.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E62A57-BB65-3298-5681-650ADDBA8D0C}|grpc2026.csproj|c:\\users\\vukad\\source\\repos\\grpc2026\\protos\\ds26.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{86E62A57-BB65-3298-5681-650ADDBA8D0C}|grpc2026.csproj|solutionrelative:protos\\ds26.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 343,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vukad\\source\\repos\\grpc2026\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\vukad\\source\\repos\\grpc2026\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAewAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T09:26:45.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ds26.proto",
+              "DocumentMoniker": "C:\\Users\\vukad\\source\\repos\\grpc2026client\\Protos\\ds26.proto",
+              "RelativeDocumentMoniker": "..\\grpc2026client\\Protos\\ds26.proto",
+              "ToolTip": "C:\\Users\\vukad\\source\\repos\\grpc2026client\\Protos\\ds26.proto",
+              "RelativeToolTip": "..\\grpc2026client\\Protos\\ds26.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2026-03-28T09:26:22.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vukad\\source\\repos\\grpc2026client\\Program.cs",
+              "RelativeDocumentMoniker": "..\\grpc2026client\\Program.cs",
+              "ToolTip": "C:\\Users\\vukad\\source\\repos\\grpc2026client\\Program.cs",
+              "RelativeToolTip": "..\\grpc2026client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T11:48:06.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ds26.proto",
+              "DocumentMoniker": "C:\\Users\\vukad\\source\\repos\\grpc2026\\Protos\\ds26.proto",
+              "RelativeDocumentMoniker": "Protos\\ds26.proto",
+              "ToolTip": "C:\\Users\\vukad\\source\\repos\\grpc2026\\Protos\\ds26.proto",
+              "RelativeToolTip": "Protos\\ds26.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2026-03-27T11:35:13.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DS26Service.cs",
+              "DocumentMoniker": "C:\\Users\\vukad\\source\\repos\\grpc2026\\Services\\DS26Service.cs",
+              "RelativeDocumentMoniker": "Services\\DS26Service.cs",
+              "ToolTip": "C:\\Users\\vukad\\source\\repos\\grpc2026\\Services\\DS26Service.cs",
+              "RelativeToolTip": "Services\\DS26Service.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAYwBwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T10:30:02.387Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

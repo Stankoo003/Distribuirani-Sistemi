@@ -1,0 +1,35 @@
+syntax = "proto3";
+import "google/protobuf/empty.proto";
+
+option csharp_namespace = "ElfakClient";
+
+package elfak;
+
+service Elfak {
+	rpc DodajStudenta(Student) returns (Poruka);
+	rpc DodajStudente(stream Student) returns (stream Poruka);
+
+	rpc ObrisiStudenta(Indeks) returns (google.protobuf.Empty);
+	rpc ObrisiStudente(stream Indeks) returns (google.protobuf.Empty);
+
+	rpc PreuzmiStudenta(Indeks) returns (Student);
+	rpc PreuzmiStudente(IndeksOdDo) returns (stream Student);
+}
+
+message Student {
+	int32 brojIndeksa = 1;
+	string imePrezime = 2;
+}
+
+message Indeks {
+	int32 brojIndeksa = 1;
+}
+
+message IndeksOdDo {
+	int32 odBrojaIndeksa = 1;
+	int32 doBrojaIndeksa = 2;
+}
+
+message Poruka {
+	string Text = 1;
+}

@@ -25,25 +25,28 @@ namespace April26 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "ChJQcm90b3MvYXByaWwucHJvdG8SBWFwcmlsIjYKEEthbGt1bGF0b3JaYWh0",
-            "ZXYSEAoIb3BlcmFuZDEYASABKAUSEAoIb3BlcmFuZDIYAiABKAUiJQoRS2Fs",
-            "a3VsYXRvck9kZ292b3ISEAoIcmV6dWx0YXQYASABKAEygQIKCkthbGt1bGF0",
-            "b3ISOwoGU2FiZXJpEhcuYXByaWwuS2Fsa3VsYXRvclphaHRldhoYLmFwcmls",
-            "LkthbGt1bGF0b3JPZGdvdm9yEjsKBk9kdXptaRIXLmFwcmlsLkthbGt1bGF0",
-            "b3JaYWh0ZXYaGC5hcHJpbC5LYWxrdWxhdG9yT2Rnb3ZvchI8CgdQb21ub3pp",
-            "EhcuYXByaWwuS2Fsa3VsYXRvclphaHRldhoYLmFwcmlsLkthbGt1bGF0b3JP",
-            "ZGdvdm9yEjsKBlBvZGVsaRIXLmFwcmlsLkthbGt1bGF0b3JaYWh0ZXYaGC5h",
-            "cHJpbC5LYWxrdWxhdG9yT2Rnb3ZvckIKqgIHQXByaWwyNmIGcHJvdG8z"));
+            "ZXYSEAoIb3BlcmFuZDEYASABKAUSEAoIb3BlcmFuZDIYAiABKAUiXAoRS2Fs",
+            "a3VsYXRvck9kZ292b3ISEAoIb3BlcmFuZDEYASABKAUSEAoIb3BlcmFuZDIY",
+            "AiABKAUSEQoJb3BlcmFjaWphGAMgASgJEhAKCHJlenVsdGF0GAQgASgBMoEC",
+            "CgpLYWxrdWxhdG9yEjsKBlNhYmVyaRIXLmFwcmlsLkthbGt1bGF0b3JaYWh0",
+            "ZXYaGC5hcHJpbC5LYWxrdWxhdG9yT2Rnb3ZvchI7CgZPZHV6bWkSFy5hcHJp",
+            "bC5LYWxrdWxhdG9yWmFodGV2GhguYXByaWwuS2Fsa3VsYXRvck9kZ292b3IS",
+            "PAoHUG9tbm96aRIXLmFwcmlsLkthbGt1bGF0b3JaYWh0ZXYaGC5hcHJpbC5L",
+            "YWxrdWxhdG9yT2Rnb3ZvchI7CgZQb2RlbGkSFy5hcHJpbC5LYWxrdWxhdG9y",
+            "WmFodGV2GhguYXByaWwuS2Fsa3VsYXRvck9kZ292b3JCCqoCB0FwcmlsMjZi",
+            "BnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::April26.KalkulatorZahtev), global::April26.KalkulatorZahtev.Parser, new[]{ "Operand1", "Operand2" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::April26.KalkulatorOdgovor), global::April26.KalkulatorOdgovor.Parser, new[]{ "Rezultat" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::April26.KalkulatorOdgovor), global::April26.KalkulatorOdgovor.Parser, new[]{ "Operand1", "Operand2", "Operacija", "Rezultat" }, null, null, null, null)
           }));
     }
     #endregion
 
   }
   #region Messages
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class KalkulatorZahtev : pb::IMessage<KalkulatorZahtev>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -270,6 +273,7 @@ namespace April26 {
 
   }
 
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class KalkulatorOdgovor : pb::IMessage<KalkulatorOdgovor>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -304,6 +308,9 @@ namespace April26 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public KalkulatorOdgovor(KalkulatorOdgovor other) : this() {
+      operand1_ = other.operand1_;
+      operand2_ = other.operand2_;
+      operacija_ = other.operacija_;
       rezultat_ = other.rezultat_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -314,8 +321,44 @@ namespace April26 {
       return new KalkulatorOdgovor(this);
     }
 
+    /// <summary>Field number for the "operand1" field.</summary>
+    public const int Operand1FieldNumber = 1;
+    private int operand1_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int Operand1 {
+      get { return operand1_; }
+      set {
+        operand1_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "operand2" field.</summary>
+    public const int Operand2FieldNumber = 2;
+    private int operand2_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int Operand2 {
+      get { return operand2_; }
+      set {
+        operand2_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "operacija" field.</summary>
+    public const int OperacijaFieldNumber = 3;
+    private string operacija_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Operacija {
+      get { return operacija_; }
+      set {
+        operacija_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     /// <summary>Field number for the "rezultat" field.</summary>
-    public const int RezultatFieldNumber = 1;
+    public const int RezultatFieldNumber = 4;
     private double rezultat_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -341,6 +384,9 @@ namespace April26 {
       if (ReferenceEquals(other, this)) {
         return true;
       }
+      if (Operand1 != other.Operand1) return false;
+      if (Operand2 != other.Operand2) return false;
+      if (Operacija != other.Operacija) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Rezultat, other.Rezultat)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -349,6 +395,9 @@ namespace April26 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
+      if (Operand1 != 0) hash ^= Operand1.GetHashCode();
+      if (Operand2 != 0) hash ^= Operand2.GetHashCode();
+      if (Operacija.Length != 0) hash ^= Operacija.GetHashCode();
       if (Rezultat != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Rezultat);
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -368,8 +417,20 @@ namespace April26 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
+      if (Operand1 != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(Operand1);
+      }
+      if (Operand2 != 0) {
+        output.WriteRawTag(16);
+        output.WriteInt32(Operand2);
+      }
+      if (Operacija.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Operacija);
+      }
       if (Rezultat != 0D) {
-        output.WriteRawTag(9);
+        output.WriteRawTag(33);
         output.WriteDouble(Rezultat);
       }
       if (_unknownFields != null) {
@@ -382,8 +443,20 @@ namespace April26 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Operand1 != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(Operand1);
+      }
+      if (Operand2 != 0) {
+        output.WriteRawTag(16);
+        output.WriteInt32(Operand2);
+      }
+      if (Operacija.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Operacija);
+      }
       if (Rezultat != 0D) {
-        output.WriteRawTag(9);
+        output.WriteRawTag(33);
         output.WriteDouble(Rezultat);
       }
       if (_unknownFields != null) {
@@ -396,6 +469,15 @@ namespace April26 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
+      if (Operand1 != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Operand1);
+      }
+      if (Operand2 != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Operand2);
+      }
+      if (Operacija.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Operacija);
+      }
       if (Rezultat != 0D) {
         size += 1 + 8;
       }
@@ -410,6 +492,15 @@ namespace April26 {
     public void MergeFrom(KalkulatorOdgovor other) {
       if (other == null) {
         return;
+      }
+      if (other.Operand1 != 0) {
+        Operand1 = other.Operand1;
+      }
+      if (other.Operand2 != 0) {
+        Operand2 = other.Operand2;
+      }
+      if (other.Operacija.Length != 0) {
+        Operacija = other.Operacija;
       }
       if (other.Rezultat != 0D) {
         Rezultat = other.Rezultat;
@@ -429,7 +520,19 @@ namespace April26 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 9: {
+          case 8: {
+            Operand1 = input.ReadInt32();
+            break;
+          }
+          case 16: {
+            Operand2 = input.ReadInt32();
+            break;
+          }
+          case 26: {
+            Operacija = input.ReadString();
+            break;
+          }
+          case 33: {
             Rezultat = input.ReadDouble();
             break;
           }
@@ -448,7 +551,19 @@ namespace April26 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 9: {
+          case 8: {
+            Operand1 = input.ReadInt32();
+            break;
+          }
+          case 16: {
+            Operand2 = input.ReadInt32();
+            break;
+          }
+          case 26: {
+            Operacija = input.ReadString();
+            break;
+          }
+          case 33: {
             Rezultat = input.ReadDouble();
             break;
           }

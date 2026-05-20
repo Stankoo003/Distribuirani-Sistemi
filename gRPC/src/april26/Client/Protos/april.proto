@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "April26";
+
+package april;
+
+service Kalkulator {
+    rpc Saberi   (KalkulatorZahtev) returns (KalkulatorOdgovor);
+    rpc Oduzmi   (KalkulatorZahtev) returns (KalkulatorOdgovor);
+    rpc Pomnozi  (KalkulatorZahtev) returns (KalkulatorOdgovor);
+    rpc Podeli   (KalkulatorZahtev) returns (KalkulatorOdgovor);
+}
+
+message KalkulatorZahtev {
+    int32 operand1 = 1;
+    int32 operand2 = 2;
+}
+
+message KalkulatorOdgovor {
+    double rezultat = 1;
+}
