@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ElfakClient")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eebe6d37d0837a5f29d2d89cac5b56810f85b12d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e6d1c83d2d2e465d6c4fc8692d768c2e391e9cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("ElfakClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ElfakClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

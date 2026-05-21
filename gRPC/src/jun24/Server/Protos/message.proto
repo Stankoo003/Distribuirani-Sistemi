@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+option csharp_namespace = "Jun24";
+
+package jun24;
+
+service MessageService {
+    rpc SendMessage    (SendMessageRequest)          returns (SendMessageResponse);
+    rpc DeleteMessage  (DeleteMessageRequest)        returns (DeleteMessageResponse);
+    rpc ListMessages   (ListMessagesRequest)         returns (stream Message);
+    rpc UploadMessages (stream SendMessageRequest)   returns (UploadResponse);
+    rpc Chat           (stream SendMessageRequest)   returns (stream Message);
+}
+
+message Message {
+    int32  id      = 1;
+    string content = 2;
+}
+
+message SendMessageRequest {
+    string content = 1;
+}
+
+message SendMessageResponse {
+    int32 id = 1;
+}
+
+message DeleteMessageRequest {
+    int32 id = 1;
+}
+
+message DeleteMessageResponse {
+    bool success = 1;
+}
+
+message ListMessagesRequest {}
+
+message UploadResponse {
+    int32 sacuvano = 1;
+}

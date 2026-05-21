@@ -8,6 +8,9 @@ public class KalkulatorService : Kalkulator.KalkulatorBase
     {
         return Task.FromResult(new KalkulatorOdgovor
         {
+            Operand1 = request.Operand1,
+            Operand2 = request.Operand2,
+            Operacija = "+",
             Rezultat = request.Operand1 + request.Operand2
         });
     }
@@ -16,6 +19,9 @@ public class KalkulatorService : Kalkulator.KalkulatorBase
     {
         return Task.FromResult(new KalkulatorOdgovor
         {
+            Operand1 = request.Operand1,
+            Operand2 = request.Operand2,
+            Operacija = "-",
             Rezultat = request.Operand1 - request.Operand2
         });
     }
@@ -24,6 +30,9 @@ public class KalkulatorService : Kalkulator.KalkulatorBase
     {
         return Task.FromResult(new KalkulatorOdgovor
         {
+            Operand1 = request.Operand1,
+            Operand2 = request.Operand2,
+            Operacija = "*",
             Rezultat = request.Operand1 * request.Operand2
         });
     }
@@ -35,6 +44,9 @@ public class KalkulatorService : Kalkulator.KalkulatorBase
 
         return Task.FromResult(new KalkulatorOdgovor
         {
+            Operand1 = request.Operand1,
+            Operand2 = request.Operand2,
+            Operacija = "/",
             Rezultat = (double)request.Operand1 / request.Operand2
         });
     }

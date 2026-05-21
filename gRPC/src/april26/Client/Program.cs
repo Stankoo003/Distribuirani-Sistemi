@@ -7,7 +7,7 @@ var client = new Kalkulator.KalkulatorClient(channel);
 
 void IspisiOdgovor(KalkulatorOdgovor odgovor)
 {
-    Console.WriteLine($"  {odgovor.Operand1} [{odgovor.Operacija}] {odgovor.Operand2} = {odgovor.Rezultat}");
+    Console.WriteLine($"  Rezultat: {odgovor.Rezultat}");
 }
 
 Console.WriteLine("=== gRPC Kalkulator ===\n");

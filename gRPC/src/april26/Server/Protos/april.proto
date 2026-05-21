@@ -17,5 +17,8 @@ message KalkulatorZahtev {
 }
 
 message KalkulatorOdgovor {
-    double rezultat = 1;
+    int32 operand1 = 1;
+    int32 operand2 = 2;
+    string operacija = 3;
+    double rezultat = 4;
 }
